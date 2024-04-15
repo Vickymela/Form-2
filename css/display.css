@@ -1,0 +1,14 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+     box-sizing: border-box;
+} 
+div{
+    height: 50px;
+    border: 2px solid black;
+    width: 150px;
+}
+/* child slector */
+.sectiona > div{
+    display: inline-block;
+}

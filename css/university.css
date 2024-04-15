@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .frm-total{
+    background-color: pink;
+    width: 25%;
+    margin: auto  auto;
+    border-radius: 5px;
+    text-transform: capitalize;
+    
+  }
+  .frm-total h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: darkblue;
+    font-size: 20px;
+    padding: 30px;
+  }
+  .frm-total p{
+     text-align: center; 
+    text-transform: capitalize; 
+  }
+  .frm-total div{
+    padding: 10px;
+  }
+  label{
+    display: block;
+    font-size: 15px;
+  }
+
+  input{
+    width: 100%;
+    padding: 5px;
+  }
+  select{
+      width: 100%;
+      padding: 5px;
+  }
+  
+ input:focus{
+    background-color: lightgray;
+  }  
+  
+  .submit{
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+  }
+  a{
+    color: darkblue;
+  }
